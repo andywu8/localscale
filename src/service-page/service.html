@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="service.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <title>Digital Marketing</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>
+          <img
+            src="../../static/img/logo.png"
+            style="width: 70px; padding-right: 10px; vertical-align: middle"
+          />LOCALSCALE
+        </h1>
+      </div>
+      <nav id="navigation">
+        <a href="../../index.html">About</a>
+        <a href="../discussion-page/discussion.html">Discussion Forum</a>
+        <a href="../service-page/service.html" class="active">Services</a>
+      </nav>
+      <div id="user-btn">
+        <form action="./src/signup-page/index.html">
+          <button id="sign-up">Log In</button>
+        </form>
+      </div>
+    </header>
+    <main>
+      <section id="header">
+        <img src="../../static/img/laptop.png" alt="laptop" />
+        <div id="service-title">
+          <h1>Branding + Design</h1>
+          <p>Enhance your business with the power of the Internet and Art</p>
+        </div>
+      </section>
+
+      <section id="body">
+        <article id="view-filter">
+          <select name="filter-categories" id="dropdown-cat">
+            <option value="filler">Sort by</option>
+            <option value="filter-name">Name</option>
+            <option value="filter-price">Price</option>
+            <option value="filter-experience">Years Experience</option>
+          </select>
+          <select name="filter-budget" id="dropdown-price">
+            <option value="filler2">Budget</option>
+            <option value="filter-1">$0 - $15</option>
+            <option value="filter-2">$16 - $30</option>
+            <option value="filter-3">$31 and up</option>
+          </select>
+        </article>
+        <article id="main-content">
+          <div id="categories">
+            <button id="logos">Logos</button>
+            <button id="web-design">Web Design</button>
+            <button id="game-art">Game Art</button>
+            <button id="business-design">Business Design</button>
+            <button id="banners">Banners</button>
+            <button id="filters">Filters</button>
+            <button id="product-design">Product Design</button>
+          </div>
+          <div class="main-div" id="consultants">
+            <div class="card">
+              <img src="../../static/img/bob.png" alt="profile-pic"">
+              <div class="container">
+                <h2>Bob</h2>
+                <p>Graphic Designer</p>
+                <form action="../ppl-info-page/ppl_info.html">
+                  <button>Learn More</button>
+                </form>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../../static/img/bob.png" alt="profile-pic"">
+              <div class="container">
+                <h2>Blu</h2>
+                <p>Animator</p>
+                <form action="../ppl-info-page/ppl_info.html">
+                  <button>Learn More</button>
+                </form>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../../static/img/bob.png" alt="profile-pic"">
+              <div class="container">
+                <h2>Ben</h2>
+                <p>3D Modeler</p>
+                <form action="../ppl-info-page/ppl_info.html">
+                  <button>Learn More</button>
+                </form>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../../static/img/bob.png" alt="profile-pic"">
+              <div class="container">
+                <h2>Bea</h2>
+                <p>UX Designer</p>
+                <form action="../ppl-info-page/ppl_info.html">
+                  <button>Learn More</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

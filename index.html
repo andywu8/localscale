@@ -1,18 +1,105 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>ScaleLocal User Type</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div class="main-div">
-            <h1>Which user are you?</h1>
-            <form action="./src/login-user/login.html">
-                <button>Small Business</button>
-            </form> 
-            <br>
-            <form action="./src/login-non-users/login.html">
-                <button>Consultant, Investor, Advisor</button>
-            </form>
-        </div>
-    </body>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.google.com/specimen/Inter" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <title>Welcome!</title>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>
+          <img
+            src="static/img/logo.png"
+            style="width: 70px; padding-right: 10px; vertical-align: middle"
+          />LOCALSCALE
+        </h1>
+      </div>
+      <nav id="navigation">
+        <a href="index.html">About</a>
+        <a href="./src/discussion-page/discussion.html">Discussion Forum</a>
+        <a href="./src/service-page/service.html" class="active">Services</a>
+      </nav>
+      <div id="user-btn">
+        <form action="./src/signup-page/index.html">
+          <button id="sign-up">Log In</button>
+        </form>
+      </div>
+    </header>
+    <section id="ABC">
+      <div class="left-picture">
+        <img
+          src="static/img/logo.png"
+          style="width: 400px; padding: 20px 100px"
+        />
+      </div>
+
+      <div class="right-text">
+        <h3
+          style="
+            color: #2f80ed;
+            font-weight: 800;
+            padding-top: 100px;
+            font-size: 16px;
+          "
+        >
+          ABOUT US
+        </h3>
+
+        <h2 style="color: black; font-size: 35px; font-family: Inter">
+          Growing local economies one small business at a time
+        </h2>
+        <p
+          style="color: rgb(110, 110, 110); font-size: 20px; text-align: center"
+        >
+          At LocalScale...
+        </p>
+        <a href="#"><button class="btn success">Contact Us</button></a>
+      </div>
+    </section>
+    <section id="white">
+      <div class="right-picture">
+        <img
+          src="static/img/v2_106.png"
+          style="width: 500px; padding-right: 100px"
+        />
+      </div>
+
+      <div class="left-text">
+        <h2
+          style="
+            color: black;
+            font-size: 35px;
+            font-family: Inter;
+            text-align: center;
+            padding-left: 150px;
+          "
+        >
+          Fostering creativity and innovation
+        </h2>
+        <p
+          style="
+            color: rgb(110, 110, 110);
+            font-family: Mulish;
+            font-size: 18px;
+            text-align: left;
+            padding-left: 150px;
+          "
+        >
+          LocalScale helps small businesses to reach their full potential.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
